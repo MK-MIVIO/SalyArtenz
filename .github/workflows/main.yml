@@ -11,6 +11,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: ftp.lunacadca.online
-        username: admin.lunacadca.online
+        server: ftp.artenz.sk
+        username: new.artenz.sk
         password: ${{ secrets.FTP_PASSWORD }}
